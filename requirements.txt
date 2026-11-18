@@ -1,0 +1,12 @@
+# Python 3.11 or newer is required (scikit-learn 1.9.1)
+streamlit>=1.30
+requests>=2.31
+matplotlib>=3.7
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+# model.pkl was saved with scikit-learn 1.9.1, so use exactly this version
+scikit-learn==1.9.1
+pandas>=2.0
+numpy>=1.24
+joblib>=1.3
